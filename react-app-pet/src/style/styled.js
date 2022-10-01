@@ -10,7 +10,7 @@ export const DivHome = styled.div`
     justify-content:center ;
     span{
         background-color: blue;
-        color: yellow;
+        color: white;
     }
     h2{
         font-size: 50px;
