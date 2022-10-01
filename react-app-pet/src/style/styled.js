@@ -74,4 +74,8 @@ export const DivPets = styled.div`
 
 `
 
+export const DivForm = styled.div`
+
+`
+
 
