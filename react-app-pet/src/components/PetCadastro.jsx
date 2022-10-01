@@ -1,10 +1,9 @@
 import React from 'react'
-import NavBar from './NavBar'
+
 
 export default function PetCadastro(props) {
     return (
         <div /*estilização por styled */>
-            <NavBar/>
             <form method='post' onSubmit={props.adicionarNovoPet}>
                 
                 <div>
