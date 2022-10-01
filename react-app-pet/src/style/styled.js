@@ -65,17 +65,23 @@ export const DivNav = styled.div`
 //-----------------------------------------
 
 export const DivPets = styled.div`
-    background-color: aqua;
+    background-color: white;
     padding: 5vh 5vw;
     h1,p{
-        padding-bottom:1vh
+        padding-bottom:1vh;
     }
     color:#000;
 
 `
 
 export const DivForm = styled.div`
-
+    input,textarea {
+        border-radius: 5px;
+        width: 100%;
+        height: 20px;
+        padding: 10px;
+    }
+    
 `
 
 
