@@ -31,7 +31,7 @@ export const DivHome = styled.div`
         font-size: 20px;
     }
     button a:hover{
-        color: red;
+        color: blue;
         transition: 0.5s;
     }
 `
