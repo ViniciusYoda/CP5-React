@@ -66,6 +66,12 @@ export const DivNav = styled.div`
 
 export const DivPets = styled.div`
     background-color: aqua;
+    padding: 5vh 5vw;
+    h1,p{
+        padding-bottom:1vh
+    }
+    color:#000;
+
 `
 
 
