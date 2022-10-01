@@ -1,8 +1,9 @@
 import React from 'react'
+import { DivPetStyle } from '../style/styled'
 
 export default function Pet(props) {
     return (
-        <div>
+        <DivPetStyle>
             <div>
                 <h2>{props.nome}</h2>
                 <p>{props.idade}</p>
@@ -14,6 +15,6 @@ export default function Pet(props) {
                 <p>{props.telefone}</p>
                 <p>{props.observacao}</p>
             </div>
-        </div>
+        </DivPetStyle>
     )
 }

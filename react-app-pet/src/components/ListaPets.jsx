@@ -45,7 +45,7 @@ export default function Cadastro() {
             <NavBar />
             <DivPets>
                 <h1>Fomulário Pets</h1>
-                <p>digite as informações sobre o pet para realizar o cadastro</p>
+                <p>Digite as informações sobre o pet para realizar o cadastro.</p>
                 <PetCadastro
                     digit={captura}
                     novoPet={nPet}
