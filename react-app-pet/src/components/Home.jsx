@@ -10,7 +10,7 @@ export default function Home() {
             <h2>Bem-vindo ao My<span>Pet</span></h2>
             <p>Aqui você pode cadastrar os dados do seu pet</p>
             <div>
-                <button><Link to="/cadastroPet">Cadastrar</Link></button>
+                <button><Link to="/lp">Cadastrar</Link></button>
             </div>
         </div>
     )

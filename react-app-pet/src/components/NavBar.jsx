@@ -10,10 +10,12 @@ export default function NavBar() {
             <div>
                 <ul>
                     <li><Link to='/'>Home</Link></li>
-                    <li><Link to='/cadastroPet'>Cadastro de Pets</Link></li>
-                    <li><Link to='/lp'>Lista de Pets</Link></li>
+                    <li><Link to='/lp'>Pets</Link></li>
                 </ul>
             </div>
         </div>
     )
 }
+
+
+
