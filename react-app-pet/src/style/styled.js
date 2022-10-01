@@ -22,7 +22,7 @@ export const DivHome = styled.div`
     button{
         width: 200px;
         height: 50px;
-        background-color: #000000;
+        background-color: #000222;
         border-radius: 10px;
     }
     button a{
