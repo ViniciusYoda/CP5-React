@@ -3,6 +3,7 @@ import NavBar from './NavBar'
 import { useState } from 'react'
 import PetCadastro from './PetCadastro'
 import Pet from './Pet'
+import { DivPets } from '../style/styled'
 
 export default function Cadastro() {
 
@@ -40,9 +41,9 @@ export default function Cadastro() {
 
 
     return (
-        <div>
+        <>
             <NavBar />
-            <div /* styled components */>
+            <DivPets>
                 <h1>Fomulário Pets</h1>
                 <p>digite as informações sobre o pet para realizar o cadastro</p>
                 <PetCadastro
@@ -64,7 +65,7 @@ export default function Cadastro() {
                         observacao={t.observacao}
                     />
                 )}
-            </div>
-        </div>
+            </DivPets>
+        </>
     )
 }
