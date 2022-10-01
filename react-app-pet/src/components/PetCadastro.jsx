@@ -1,9 +1,10 @@
 import React from 'react'
 
 
+
 export default function PetCadastro(props) {
     return (
-        <div /*estilização por styled */>
+        <div>
             <form method='post' onSubmit={props.adicionarNovoPet}>
                 
                 <div>

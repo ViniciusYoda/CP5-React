@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Pet(props) {
     return (
-        <div /*styled components*/>
+        <div>
             <div>
                 <h2>{props.nome}</h2>
                 <p>{props.idade}</p>

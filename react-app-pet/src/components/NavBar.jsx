@@ -1,9 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { DivNav } from '../style/styled'
 
 export default function NavBar() {
     return (
-        <div>
+        <DivNav>
             <div>
                 <h1>My<span>Pet</span></h1>
             </div>
@@ -13,7 +14,7 @@ export default function NavBar() {
                     <li><Link to='/lp'>Pets</Link></li>
                 </ul>
             </div>
-        </div>
+        </DivNav>
     )
 }
 

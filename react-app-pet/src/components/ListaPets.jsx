@@ -43,12 +43,15 @@ export default function Cadastro() {
         <div>
             <NavBar />
             <div /* styled components */>
-
+                <h1>Fomulário Pets</h1>
+                <p>digite as informações sobre o pet para realizar o cadastro</p>
                 <PetCadastro
                     digit={captura}
                     novoPet={nPet}
                     adicionarNovoPet={addPet}
                 />
+                
+                <h1>Pets cadastrados</h1>
 
                 {pet.map((t) =>
                     <Pet
