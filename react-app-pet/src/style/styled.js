@@ -9,7 +9,7 @@ export const DivHome = styled.div`
     align-items: center;
     justify-content:center ;
     span{
-        background-color: blue;
+        background-color: red;
         color: white;
     }
     h2{
@@ -38,7 +38,7 @@ export const DivHome = styled.div`
 //-----------------------------------------
 
 export const DivNav = styled.div`
-    background-color: red;
+    background-color: blue;
     display: flex;
     align-items: center;
     justify-content: space-between;
