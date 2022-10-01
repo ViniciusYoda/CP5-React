@@ -38,7 +38,7 @@ export const DivHome = styled.div`
 //-----------------------------------------
 
 export const DivNav = styled.div`
-    background-color: blue;
+    background-color: red;
     display: flex;
     align-items: center;
     justify-content: space-between;
